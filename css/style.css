@@ -21,7 +21,6 @@ body{
 .container{
     width: 60%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 /* definizione section standard */
@@ -35,7 +34,6 @@ body{
 /* prima riga */
 .container section{
     width: calc(100% / 3 - 10px);
-    height: 600px;
     float: left;
     margin: 5px 5px;
     position: relative;
@@ -56,7 +54,8 @@ body{
 
 .sconto{
     position: absolute;
-    bottom: 20px;
+    left: 0;
+    top: 550px;
     cursor: default;
 }
 
@@ -82,6 +81,36 @@ body{
     background-color: rgb(31, 131, 31);
 }
 
+.marca{
+    display: block;
+    margin-top: 5px;
+}
+
+.nome{
+    display: block;
+    margin: 2px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.prezzo{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sale::after{
+    content: "29,99 \20AC";
+    color: black;
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+
+
+
+/* prima riga immagini */
 .prima{
     background-image: url(../img/1.webp);
 }
@@ -94,7 +123,7 @@ body{
     background-image: url(../img/3.webp);
 }
 
-/* prima riga hover */
+/* prima riga immagini hover */
 .prima:hover{
     background-image: url(../img/1b.webp);
 }
@@ -107,7 +136,7 @@ body{
     background-image: url(../img/3b.webp);
 }
 
-/* seconda riga */
+/* seconda riga immagini */
 .quarta{
     background-image: url(../img/4.webp);
 }
@@ -120,7 +149,7 @@ body{
     background-image: url(../img/6.webp);
 }
 
-/* seconda riga hover */
+/* seconda riga immagini hover */
 .quarta:hover{
     background-image: url(../img/4b.webp);
 }
