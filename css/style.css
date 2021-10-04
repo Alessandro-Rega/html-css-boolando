@@ -20,7 +20,6 @@ body{
 /* definizione container larghezza */
 .container{
     width: 60%;
-    height: 800px;
     margin: 0 auto;
     border: 1px solid red;
 }
@@ -53,18 +52,7 @@ body{
     cursor: default;
 }
 
-.sconto span:last-child{
-    width: 100px;
-    height: 25px;
-    display: inline-block;
-    text-align: center;
-    line-height: 25px;
-    color: white;
-    font-weight: bold;
-    background-color: rgb(31, 131, 31);
-}
-
-.sconto span:first-child{
+.percentuale{
     width: 45px;
     height: 25px;
     display: inline-block;
@@ -73,6 +61,17 @@ body{
     color: white;
     font-weight: bold;
     background-color: rgb(253, 55, 55);
+}
+
+.sostenibilita{
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(31, 131, 31);
 }
 
 .prima{
@@ -107,4 +106,39 @@ body{
 
 .terza:hover{
     background-image: url(../img/3b.webp);
+}
+
+/* seconda riga */
+.quarta{
+    height: 600px;
+    background-image: url(../img/4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quinta{
+    height: 600px;
+    background-image: url(../img/5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sesta{
+    height: 600px;
+    background-image: url(../img/6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* seconda riga hover */
+.quarta:hover{
+    background-image: url(../img/4b.webp);
+}
+
+.quinta:hover{
+    background-image: url(../img/5b.webp);
+}
+
+.sesta:hover{
+    background-image: url(../img/6b.webp);
 }
