@@ -13,8 +13,8 @@ body{
 
 .clearfix::after{
     content: "";
-    display: table;
     clear: both;
+    display: table;
 }
 
 /* definizione container larghezza */
@@ -31,21 +31,66 @@ body{
     height: 600px;
     float: left;
     margin: 5px 5px;
+    position: relative;
+}
+
+.preferiti{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    text-align: center;
+    line-height: 35px;
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.sconto{
+    position: absolute;
+    bottom: 20px;
+    cursor: default;
+}
+
+.sconto span:last-child{
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(31, 131, 31);
+}
+
+.sconto span:first-child{
+    width: 45px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(253, 55, 55);
 }
 
 .prima{
+    height: 600px;
     background-image: url(../img/1.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .seconda{
+    height: 600px;
     background-image: url(../img/2.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .terza{
+    height: 600px;
     background-image: url(../img/3.webp);
     background-repeat: no-repeat;
     background-size: cover;
