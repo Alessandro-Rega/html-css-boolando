@@ -24,6 +24,14 @@ body{
     border: 1px solid red;
 }
 
+/* definizione section standard */
+.immagine{
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* prima riga */
 .container section{
     width: calc(100% / 3 - 10px);
@@ -75,24 +83,15 @@ body{
 }
 
 .prima{
-    height: 600px;
     background-image: url(../img/1.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .seconda{
-    height: 600px;
     background-image: url(../img/2.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .terza{
-    height: 600px;
     background-image: url(../img/3.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* prima riga hover */
@@ -110,24 +109,15 @@ body{
 
 /* seconda riga */
 .quarta{
-    height: 600px;
     background-image: url(../img/4.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .quinta{
-    height: 600px;
     background-image: url(../img/5.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .sesta{
-    height: 600px;
     background-image: url(../img/6.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 /* seconda riga hover */
